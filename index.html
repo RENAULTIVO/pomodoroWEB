@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Time Manager</title>
+</head>
+<body class="flexBoxAlign">
+    <div id="timerBox" class="flexBoxAlign columnDirection">
+        <div id="timerClock" class="timerItem flexBoxAlign rowDirection hoverGrow">
+            <div id="clockHour" class="clockDigit">00</div>
+            :
+            <div id="clockMinute" class="clockDigit">00</div>
+        </div>
+        <div id="playAndPause" class="timerItem flexBoxAlign hoverGrow">
+            <img src="play.png">
+        </div>
+    </div>
+    <div id="setTimerMenu" class="flexBoxAlign">
+        <div id="timerOptionsList" class="flexBoxAlign">
+            <div class="timerOption flexBoxAlign">5</div>
+            <div class="timerOption flexBoxAlign">10</div>
+            <div class="timerOption flexBoxAlign">20</div>
+            <div class="timerOption flexBoxAlign">30</div>
+        </div>
+    </div>
+    <div id="lastTimeClock" class="flexBoxAlign">Last complete: </div>
+    <script src="script.js"></script>
+</body>
+</html>
